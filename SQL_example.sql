@@ -7,4 +7,9 @@
 -- INSERT INTO STUDENTS (id, username, password)
 -- VALUES ("wg442-3564s-y53e", "Nill", "42t2r32");
 
-SELECT * FROM STUDENTS;
+-- SELECT * FROM STUDENTS;
+
+-- SELECT * FROM STUDENTS LIMIT 1;
+
+SELECT username FROM STUDENTS 
+WHERE password = "2442tg4";
