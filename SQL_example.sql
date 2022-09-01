@@ -4,6 +4,7 @@
 -- INSERT INTO STUDENTS (id, username, password)
 -- VALUES ("13r1r-44242-2442", "John", "2442tg4");
 
-INSERT INTO STUDENTS (id, username, password)
-VALUES ("wg442-3564s-y53e", "Nill", "42t2r32");
+-- INSERT INTO STUDENTS (id, username, password)
+-- VALUES ("wg442-3564s-y53e", "Nill", "42t2r32");
 
+SELECT * FROM STUDENTS;
