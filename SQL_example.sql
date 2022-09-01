@@ -11,5 +11,8 @@
 
 -- SELECT * FROM STUDENTS LIMIT 1;
 
+-- SELECT username FROM STUDENTS 
+-- WHERE password = "2442tg4";
+
 SELECT username FROM STUDENTS 
-WHERE password = "2442tg4";
+WHERE password LIKE "4%";
