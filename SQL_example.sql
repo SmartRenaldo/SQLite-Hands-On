@@ -29,7 +29,9 @@
 -- UPDATE STUDENTS SET password='tooooooooothemooooon'
 -- WHERE username = 'Nill';
 
-UPDATE STUDENTS SET username='Jeff', id='24t53-h5353-5335' 
-WHERE password='tooooooooothemooooon';
+-- UPDATE STUDENTS SET username='Jeff', id='24t53-h5353-5335' 
+-- WHERE password='tooooooooothemooooon';
+
+DELETE FROM STUDENTS WHERE username='Jeff';
 
 SELECT * FROM STUDENTS;
