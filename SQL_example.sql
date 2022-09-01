@@ -23,8 +23,13 @@
 -- SELECT username FROM STUDENTS 
 -- WHERE password LIKE "_4%";
 
-SELECT * FROM STUDENTS 
-WHERE username LIKE "J%N";
-
 -- SELECT * FROM STUDENTS 
--- WHERE password LIKE "J%N";
+-- WHERE username LIKE "J%N";
+
+-- UPDATE STUDENTS SET password='tooooooooothemooooon'
+-- WHERE username = 'Nill';
+
+UPDATE STUDENTS SET username='Jeff', id='24t53-h5353-5335' 
+WHERE password='tooooooooothemooooon';
+
+SELECT * FROM STUDENTS;
