@@ -24,4 +24,7 @@
 -- WHERE password LIKE "_4%";
 
 SELECT * FROM STUDENTS 
-WHERE password LIKE "J%N";
+WHERE username LIKE "J%N";
+
+-- SELECT * FROM STUDENTS 
+-- WHERE password LIKE "J%N";
