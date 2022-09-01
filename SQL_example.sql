@@ -17,5 +17,11 @@
 -- SELECT username FROM STUDENTS 
 -- WHERE password LIKE "4%";
 
-SELECT username FROM STUDENTS 
-WHERE id IN ("wg442-3564s-y53e", "13r1r-44242-2442")
+-- SELECT password FROM STUDENTS 
+-- WHERE id IN ('wg442-3564s-y53e', '13r1r-44242-2442');
+
+-- SELECT username FROM STUDENTS 
+-- WHERE password LIKE "_4%";
+
+SELECT * FROM STUDENTS 
+WHERE password LIKE "J%N";
