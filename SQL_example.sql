@@ -1,2 +1,5 @@
 CREATE TABLE IF NOT EXISTS STUDENTS (id TEXT NOT NULL PRIMARY KEY, 
 username NOT NULL, password NOT NULL);
+
+INSERT INTO STUDENTS (id, username, password)
+VALUES ("13r1r-44242-2442", "John", "2442tg4");
